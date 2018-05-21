@@ -1,0 +1,293 @@
+/*Generic element styles*/
+body {
+	margin: 0 auto;
+	text-align: center;
+}
+h1, h2, h3, h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+header {
+	background-color: #0072F5;
+	text-align: center;
+}
+cite {
+	text-align: center;
+}
+/*Generic element styles end*/
+
+/*Generic website styles*/
+#website-title {
+	display: inline-block;
+	margin: 0;
+	min-width: 40%;
+}
+header img {
+	width: 80px;
+	height: 92px;
+	position: relative;
+	top: 7px;
+}
+header h1 {
+	display: inline-block;
+	margin: 0;
+	font-size: 3.125em;
+	position: relative;
+	bottom: 25px;
+	font-family: 'Berkshire Swash', cursive;
+}
+header nav {
+	display: inline-block;
+	min-width: 40%;
+}
+header li {
+	display: inline-block;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	margin: 0 10px;
+	font-size: 1.5em;
+	white-space: nowrap;
+}
+nav a:hover, #skip-to-main a:hover, footer a:hover, #blogs-list a:hover{
+	font-weight: bold;
+}
+nav a:hover, #blogs-list a:hover {
+	color: #00FFF8;	
+}
+#skip-to-main a:hover, footer a:hover {
+	color: #0072F5;
+}
+header form {
+	display: inline-block;
+}
+header form li {
+	margin: 0;
+}
+header #searchbar {
+	border-radius: 25px;
+	padding: 0 7px;
+}
+header a, #skip-to-main a, footer a, #blogs-list a {
+	text-decoration: none;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+#main {
+	max-width: 1200px;
+	margin: 0 auto 25px auto;
+	display: table;
+}
+#main h3{
+	font-size: 2.8em;
+}
+#main h4{
+	font-size: 1.5em;
+}
+article p{
+	text-align: justify;
+}
+article img {
+	width: 540px;
+}
+footer {
+	background-color: #00DCFF;
+	text-align: center;
+	padding: 10px 0;
+	clear: both;
+}
+footer h4, footer p {
+	margin: 0;
+	padding: 0 10px 10px 10px;
+	text-align: left;
+}
+footer ul {
+	margin: 0;
+	list-style: square;
+}
+footer li {
+	text-align: left;
+}
+#company-blurb, #recent-blogs {
+	max-width: 20%;
+	padding: 0 10px;
+	display: inline-block;
+	vertical-align:top;
+}
+#recent-blogs ul {
+	margin: 0 0 20px 0;
+}
+#follow-links {
+	text-align: left;
+	display: inline-block;
+	vertical-align:bottom;
+}
+#follow-links p {
+	display: inline-block;
+	font-size: 1.25em;
+	position: relative;
+	bottom: 12px;
+	padding: 0;
+}
+#follow-links a {
+	position: relative;
+	bottom: 10px;
+}
+#return-to-top {
+	
+	padding: 0.3em;
+}
+#end-of-footer {
+	clear: both;
+}
+/*Generic Website styles end*/
+
+/*Image banner styles*/
+#image-banner-home, #image-banner-about, #image-banner-blog, #image-banner-contact{
+	clear: both;
+	min-width: 100%;
+	background-repeat: repeat-x;
+	text-align: center;
+	max-height: 320px;
+}
+#image-banner-home {
+	background-image: url("images/homes.jpg");
+}
+#image-banner-about {
+	background-image: url("images/aboutcompany.jpg");
+}
+#image-banner-blog {
+	background-image: url("images/blogshouse.jpg");
+}
+#image-banner-contact {
+	background-image: url("images/contactus.jpg");
+}
+#about-page {
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+#content-image-banner h1 {
+	margin: 0;
+	font-size: 3em;
+	height: 320px;
+	vertical-align: middle;
+	display: table-cell;
+	font-family: 'Berkshire Swash', cursive;
+	color: #0072F5;
+}
+#skip-to-main a {
+	position: relative;
+	bottom: 40px;
+}
+/*Image banner styles end*/
+
+/*Contact form styles*/
+#contact-form {
+	display: inline-block;
+	max-width: 540px;
+}
+#contact-form h3, #contact-sidebar h3 {
+	font-size: 2em;
+	text-align: center;
+}
+#contact-form form {
+	text-align: left;
+}
+#contact-form label {
+	display: inline-block; /*Allows form element width to be set*/
+	min-width: 7em;
+}
+.form-row {
+	padding: 0.3em 0;
+	display: table;
+}
+.contact-field {
+	display: inline-block; /*Allows form element width to be set*/
+	min-width: 20em;
+}
+.label {
+	vertical-align: top;
+}
+textarea {
+	max-width: 540px;
+}
+#submit-form {
+	text-align: center;
+	width: 100%;
+}
+/*Contact form styles end*/
+
+
+/*Blogs list & articles page styles*/
+#contact-sidebar {
+	display: inline-block;
+	max-width: 540px;
+	margin: 0 0 0 20px;
+	text-align: left;
+	vertical-align: top;
+}
+#blogs-list, #blog-tags-sidebar {
+	max-width: 680px;
+	display: inline-block;
+	vertical-align: top;
+}
+#blog-tags-sidebar {
+	max-width: 400px;
+	text-align: left;
+	margin-left: 20px;
+	padding: 0.67em 0;
+}
+#blog-tags-sidebar h3 {
+	margin: 0.3em 0;
+	font-size: 2.1em;
+}
+#blogs-list h4{
+	text-align: left;
+	font-size: 2em;
+	margin: 0;
+}
+#article-content {
+	max-width: 680px;
+	display: inline-block;
+}
+#article-references p {
+	text-align: center;
+}
+/*Blog list /article page styles end*/
+
+/*About page and table styles*/
+table {
+	text-align: left;
+	margin: 0 auto;
+}
+table, td, th {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	color: #000;
+	margin: 0px auto;
+}
+td {
+	background-color: #8589ff;
+}
+#about-us , #find-us {
+	display: inline-block;
+	max-width: 540px;
+	margin: 0 20px;
+	vertical-align: top;
+}
+
+/*about page & table styles end*/
+/*Home page styles*/
+#video-tour {
+	background-color: #d5e7ff;
+}
+/*home page styles end*/
